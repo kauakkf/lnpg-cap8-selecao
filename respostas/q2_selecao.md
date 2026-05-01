@@ -29,3 +29,11 @@ when 4
 when 6, 7, 8
   j = k - 2
 end
+
+// Erlang
+case k of
+    _ when k == 1; k == 2 -> J = 2 * K - 1;
+    _ when k == 3; k == 5 -> J = 3 * K + 1;
+    4 -> J = 4 * K - 1;
+    _ when k >= 6, k <= 8 -> J = K - 2
+end.
